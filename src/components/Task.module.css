@@ -1,0 +1,108 @@
+.container {
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  gap: 35.062rem;
+  margin-top: 4rem;
+}
+.finishedTasks {
+  color: var(--purple);
+  font-weight: bold;
+}
+.createdTasks {
+  color: var(--blue);
+  font-weight: bold;
+}
+.numCreatedTasks,
+.numFinishedTasks {
+  background: var(--gray-400);
+  border-radius: 62.43rem;
+  padding: 0.12rem 0.5rem;
+  color: var(--gray-100);
+  font-size: 0.75rem;
+}
+.taskContainer {
+  width: 46rem;
+  height: 15.25rem;
+  margin-top: 4rem;
+  display: flex;
+  margin-left: 16.87rem;
+  justify-content: center;
+}
+.contentTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contentTask img {
+  width: 3.37rem;
+}
+.contentTask p {
+  display: flex;
+  justify-content: center;
+  align-items: column;
+}
+.emptyScreenTxtOne {
+  margin-top: 1rem;
+  padding: 5px;
+  color: var(--gray-300);
+  font-weight: bold;
+}
+.emptyScreenTxtTwo {
+  color: var(--gray-300);
+}
+.itemTask {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  margin-left: 270px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  width: 736px;
+  height: 72px;
+  border-radius: 8px;
+  gap: 12px;
+}
+
+.circleIcon {
+  color: var(--blue);
+  cursor: pointer;
+}
+.circleIcon:hover {
+  color: var(--blueDark);
+}
+.checkIcon {
+  background: var(--purple);
+  border-radius: 10px;
+  border: 3px solid var(--purple);
+  cursor: pointer;
+}
+.checkIcon:hover {
+  background: var(--purpleDark);
+  border: 3px solid var(--purpleDark);
+}
+.titleWhenCheckIsOn {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.trash {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+
+.trashIcon {
+  color: var(--gray-300);
+  display: flex;
+  cursor: pointer;
+}
+.trashIcon:hover {
+  color: var(--danger);
+  background: var(--gray-400);
+  width: 24px;
+  height: 25px;
+  border: 3px solid var(--gray-400);
+  border-radius: 5px;
+}
